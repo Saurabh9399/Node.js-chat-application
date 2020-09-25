@@ -1,0 +1,63 @@
+.logo {
+  display: block;
+  margin: auto;
+  width: 142px;
+  height: 100px;
+}
+h1{
+  margin-top: 12px;
+  font-size:30px;
+  color:whitesmoke;
+  font-family: 'Krona One', sans-serif;
+  text-align: center;
+}
+body{
+    height:150vh;
+    background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+}
+.container {
+  max-width: 60%;
+  margin:15px auto;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding:33px;
+  overflow-y:auto;
+  height: 60vh; 
+  font-family: 'Slabo 27px', serif;
+}
+.message {
+  background-color: whitesmoke;
+  width: 24%;
+  padding: 10px;
+  margin: 17px 12px;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+.left {
+  float: left;
+  clear: both;
+}
+.right {
+  float: right;
+  clear: both;
+}
+#send-container{
+    display: block;
+    margin: auto;
+   text-align: center;
+   
+}
+#messageInp{
+    width:58%;
+    border: 2px solid black;
+    border-radius: 10px;
+    outline: none;
+    height:31px;
+}
+.btn{
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 6px;
+    width:5%;
+    height:27px;
+}
